@@ -75,7 +75,8 @@
 .site-footer-grid .footer-col a:hover{color:var(--electric)}
 .footer-social{display:flex;gap:10px;margin-top:12px}
 .footer-social a{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;transition:.15s}
-.footer-social a:hover{border-color:var(--electric);background:rgba(117,220,255,.08)}
+.footer-social a{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;transition:.15s;color:var(--muted)}
+.footer-social a:hover{border-color:var(--electric);background:rgba(117,220,255,.08);color:var(--electric)}
 .footer-social svg{width:16px;height:16px;fill:var(--muted)}
 .footer-bottom{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;padding-top:22px}
 .footer-bottom p{color:var(--muted);font-size:12px;margin:0}
